@@ -1,0 +1,48 @@
+body, html, .container, [class^="col-"], .padIn {
+	height: 100%;
+}
+
+.resultRow {
+	height:20%;
+}
+
+.padRow {
+	height:10%;
+}
+
+
+
+.customDiv {
+	background-color: #d8d2cd;
+	text-align: center;
+	vertical-align:text-bottom;
+	font-size: large;
+	border:1px solid black;
+	height:100%;
+	
+
+}
+
+.result {
+	text-align: right;
+	margin-top:10px;
+	font-size:xx-large;
+	background-color: #8c8885;
+	color:white;
+}
+
+.equal, .math {
+	background-color: #ef9253;
+	color:white;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
